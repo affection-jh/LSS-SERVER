@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: lss
+  
+  # MySQL Database 설정
+  datasource:
+    url: jdbc:mysql://localhost:3306/lss_game?useSSL=false&serverTimezone=UTC&characterEncoding=UTF-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: jjh8113742$$
+  
+  # JPA 설정
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+# 서버 포트
+server:
+  port: 8080
+  address: 0.0.0.0
+
+# 로깅 설정
+logging:
+  level:
+    com.eos.lss: DEBUG
+    org.springframework.web: DEBUG 
