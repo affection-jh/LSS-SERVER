@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc26c6e2-41c1-42ce-a737-c87945cd1566" name="변경" comment="" />
+    <list default="true" id="fc26c6e2-41c1-42ce-a737-c87945cd1566" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lss/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/lss/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lss/database/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lss/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/lss/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lss/src/main/java/com/eos/lss/LssApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lss/src/main/java/com/eos/lss/LssApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lss/src/main/java/com/eos/lss/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lss/src/main/java/com/eos/lss/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lss/src/main/java/com/eos/lss/dto/GameErrorDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/lss/src/main/java/com/eos/lss/dto/GameErrorDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lss/src/main/java/com/eos/lss/dto/GameStateDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/lss/src/main/java/com/eos/lss/dto/GameStateDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lss/src/main/java/com/eos/lss/entity/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lss/src/main/java/com/eos/lss/entity/Session.java" beforeDir="false" afterPath="$PROJECT_DIR$/lss/src/main/java/com/eos/lss/entity/Session.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lss/src/main/java/com/eos/lss/entity/SessionStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lss/src/main/java/com/eos/lss/model/SessionStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lss/src/main/java/com/eos/lss/repository/PlayerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lss/src/main/java/com/eos/lss/repository/SessionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lss/src/main/java/com/eos/lss/service/SessionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/lss/src/main/java/com/eos/lss/service/SessionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lss/src/main/java/com/eos/lss/websocket/SimpleWebSocketHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/lss/src/main/java/com/eos/lss/websocket/SimpleWebSocketHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lss/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lss/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,17 +40,15 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="lss" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -41,18 +59,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.lss [:com.eos.lss.LssApplication.main()].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/myLab/lss_server&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.LssApplication.executor": "Run",
+    "Gradle.Build lss.executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
+    "Gradle.lss [:com.eos.lss.LssApplication.main()].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/myLab/lss_server",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">

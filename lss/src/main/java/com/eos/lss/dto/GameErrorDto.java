@@ -34,6 +34,7 @@ public class GameErrorDto {
     public static final String ERROR_PRESIDENT_LEFT = "PRESIDENT_LEFT";
     public static final String ERROR_ORDER_NOT_REGISTERED = "ORDER_NOT_REGISTERED";
     public static final String ERROR_ALREADY_ORDERED = "ALREADY_ORDERED";
+    public static final String ERROR_NOT_REGISTERED_PLAYER = "NOT_REGISTERED_PLAYER";
     public static final String ERROR_COIN_NOT_SET = "COIN_NOT_SET";
     public static final String ERROR_GAME_TIME_EXPIRED = "GAME_TIME_EXPIRED";
     public static final String ERROR_LEE_SOON_SIN_TRIGGERED = "LEE_SOON_SIN_TRIGGERED";
@@ -55,6 +56,9 @@ public class GameErrorDto {
     
     // 시스템 에러
     public static final String ERROR_INTERNAL_SERVER_ERROR = "INTERNAL_SERVER_ERROR";
+    
+    // Rate Limit 관련 에러
+    public static final String ERROR_RATE_LIMIT_EXCEEDED = "RATE_LIMIT_EXCEEDED";
     
     // 편의 생성자
     public GameErrorDto(String errorType) {

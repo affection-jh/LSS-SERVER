@@ -16,7 +16,6 @@ public class HomeController {
         response.put("message", "LSS Game Server is running");
         response.put("version", "1.0.0");
         response.put("websocket_endpoint", "/ws");
-        response.put("timestamp", System.currentTimeMillis());
         
         return ResponseEntity.ok(response);
     }
@@ -26,7 +25,6 @@ public class HomeController {
         Map<String, Object> response = new HashMap<>();
         response.put("status", "UP");
         response.put("service", "LSS Game Server");
-        response.put("timestamp", System.currentTimeMillis());
         
         return ResponseEntity.ok(response);
     }
